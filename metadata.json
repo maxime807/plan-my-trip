@@ -1,0 +1,6 @@
+{
+  "name": "PlanMyTrip AI",
+  "description": "Générateur de City-Break & Itinéraires Sur-Mesure",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

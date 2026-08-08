@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #F9F8F6;
+    color: #2D2D2A;
+    min-height: 100vh;
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply bg-white border border-[#EBEAE4] shadow-sm;
+  }
+  .glass-card {
+    @apply bg-white border border-[#EBEAE4] shadow-sm hover:shadow-md transition-shadow duration-300;
+  }
+}
